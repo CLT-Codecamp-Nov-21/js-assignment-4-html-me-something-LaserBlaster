@@ -12,6 +12,7 @@ body {
 #mainHeading{
    text-align:center;
    text-decoration: underline;
+   color: red;
 }
 
 .column {
@@ -35,6 +36,9 @@ ul{
 main{
     font-size: 25px;
     text-align: justify;
+}
+.funParagraph{
+    color: green;
 }
 
 .footer{
