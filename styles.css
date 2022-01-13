@@ -1,1 +1,52 @@
-/* Write your CSS here! */
+<style>
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F0FFFF;
+  }
+  
+
+#mainHeading{
+   text-align:center;
+   text-decoration: underline;
+   color: red;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+ul{
+      font-size: 38px;
+  }
+
+main{
+    font-size: 25px;
+    text-align: justify;
+}
+.funParagraph{
+    color: green;
+}
+
+.footer{
+    text-align: center;
+    font-size: 28px;
+
+}
+
+
+
+</style>
